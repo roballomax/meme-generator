@@ -1,0 +1,30 @@
+@import '../../@mixins.less';
+
+header {
+    .purple-gradient-background();
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+    color: #fff;
+
+    > .logo-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        > img {
+            width: 52px
+        }
+
+        > h3 {
+            margin-left: 15px;
+            font-size: 2em;
+        }
+    }
+
+    > h4 {
+        font-weight: 300;
+        font-size: 1.1em;
+    }
+}
