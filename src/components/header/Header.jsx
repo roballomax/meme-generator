@@ -9,7 +9,9 @@ function Header()
                 <img src={TrollFace} alt="Memes, tipos de carinha são" />
                 <h3>Meme Generator</h3>
             </div>
-            <h4>React Course - Project 3</h4>
+            <div className="title-container">
+                <h4>React Course - Project 3</h4>
+            </div>
         </header>
     )
 }
